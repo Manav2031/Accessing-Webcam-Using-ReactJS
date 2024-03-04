@@ -1,0 +1,63 @@
+.webcam-container {
+    width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.webcam-preview {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.capture-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.refresh-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.screenshot-container {
+    margin-top: 20px;
+}
+
+.screenshot-img {
+    max-width: 100%;
+}
+
+.file-upload-container {
+    width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.file-input {
+    margin-top: 20px;
+}
+
+.upload-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.output-container {
+    margin-top: 20px;
+}
+  
