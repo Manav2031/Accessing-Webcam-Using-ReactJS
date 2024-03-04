@@ -1,2 +1,7 @@
 my-app/node_modules
 ocr_server/node_modules
+
+my-app/package-lock.json
+ocr_server/package-lock.json
+
+ocr_server/uploads
