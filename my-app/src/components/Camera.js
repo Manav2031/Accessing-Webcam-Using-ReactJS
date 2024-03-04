@@ -22,7 +22,7 @@ const Camera = () => {
         
         try {
             const response = await axios.post(
-                "http://localhost:4000/upload/dataURL", 
+                "https://itechseed-ocr-task.onrender.com/echo/Shubham", 
                 formData
             )
             console.log(response);

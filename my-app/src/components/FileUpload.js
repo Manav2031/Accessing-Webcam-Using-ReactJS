@@ -11,7 +11,7 @@ const FileUpload = () => {
     formData.append("image", file);
 
     try {
-      const response = await axios.post("http://localhost:4000/upload/file", formData);
+      const response = await axios.post("https://itechseed-ocr-task.onrender.com/echo/Shubham", formData);
       console.log(response);
       setOutput(response.data.output)
     } catch (error) {
