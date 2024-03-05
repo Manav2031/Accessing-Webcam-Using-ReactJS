@@ -27,7 +27,7 @@ const Camera = () => {
                 formData
             )
             console.log(response);
-            setOutput(response.data.output)
+            setOutput(response.data.text)
         } catch (error) {
             console.error(error);
         }

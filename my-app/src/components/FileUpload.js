@@ -13,7 +13,7 @@ const FileUpload = () => {
     try {
       const response = await axios.post("https://itechseed-ocr-task.onrender.com/ocr", formData);
       console.log(response);
-      setOutput(response.data.output)
+      setOutput(response.data.text)
     } catch (error) {
       console.error(error);
     }
