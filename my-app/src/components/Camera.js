@@ -1,7 +1,7 @@
 import React, {useCallback, useRef, useState} from 'react'
 import Webcam from 'react-webcam'
 import axios from 'axios'
-import './styles.css'
+import '../styles/styles.css'
 
 const videoConstraints = {
     width: 540,
