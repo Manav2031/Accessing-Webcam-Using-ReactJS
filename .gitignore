@@ -1,4 +1,5 @@
 my-app/node_modules
+my-app/.env
 ocr_server/node_modules
 
 my-app/package-lock.json
