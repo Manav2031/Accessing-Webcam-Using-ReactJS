@@ -8,12 +8,12 @@ const FileUpload = () => {
 
   const handleUpload = async () => {
     const formData = new FormData();
-    formData.append("image", file);
+    formData.append("image_file", file);
 
     try {
-      const response = await axios.post("https://itechseed-ocr-task.onrender.com/echo/Shubham", formData);
+      const response = await axios.post("https://itechseed-ocr-task.onrender.com/ocr", formData);
       console.log(response);
-      setOutput(response.data.output)
+      setOutput(response.data.text)
     } catch (error) {
       console.error(error);
     }
