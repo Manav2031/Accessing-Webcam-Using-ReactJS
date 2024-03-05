@@ -1,0 +1,30 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.success {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: lightblue;
+    background-size: cover;
+}
+
+.containers {
+    display: flex;
+    flex-direction: row;
+}
+
+.rch1 {
+    margin-left: 400px;
+}
+
+.lch1 {
+    margin-left: 160px;
+}
