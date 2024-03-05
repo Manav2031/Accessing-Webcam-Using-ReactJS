@@ -52,9 +52,10 @@ const Camera = () => {
         <button onClick={capturePhoto} className="capture-button"> Capture </button>
         <br /> <br />
         <button className="refresh-button" onClick={() => {setUrl(null); setOutput(null)}}> Refresh </button>
+        <br /> <br />
+        <br /> <br />
         {url && (
             <div>
-                <br /> <br />
                 <img className="screenshot-img" src={url} alt="Screenshot" />
             </div>
         )}
@@ -63,6 +64,7 @@ const Camera = () => {
                 { output } 
             </div>
         )}
+             <br /> <br />
     </div>
   )
 }

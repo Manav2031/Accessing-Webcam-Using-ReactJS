@@ -28,6 +28,8 @@ const FileUpload = () => {
                 { output } 
             </div>
         )}
+    <br /> <br />
+    <br /> <br />
     </div>
   );
 };
