@@ -40,7 +40,6 @@ const FileUpload = () => {
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-
       setOutput("File downloaded successfully!");
     } catch (error) {
       console.error(error);
@@ -53,6 +52,7 @@ const FileUpload = () => {
       <button className="upload-button" onClick={handleUpload}>Upload Image</button>
       <br /> <br />
       <button className="download-button" onClick={handleDownload}>Download Excel File</button>
+      <br /> <br />
       <p>{output}</p>
     </div>
   );
