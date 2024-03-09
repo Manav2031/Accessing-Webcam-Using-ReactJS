@@ -27,6 +27,8 @@ const Camera = () => {
                 formData
             )
             console.log(response);
+            if(response.data.text === '')
+            alert("Sorry could not capture, click on Refresh button and then capture again.")
             setOutput(response.data.text)
         } catch (error) {
             console.error(error);
