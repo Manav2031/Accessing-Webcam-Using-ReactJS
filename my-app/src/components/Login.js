@@ -13,9 +13,7 @@ export default function Login() {
         <input type="email" placeholder="Email" name="email" /> <br/><br/>
         <label>Password : </label>
         <input type="password" placeholder="Password" name="password" /> <br/><br/>
-        <a href="/menu">
-          <button value='Login' name="login">Login</button>
-        </a>
+          <button value='Login' name="login"> <a href="/menu"> Login </a> </button>
       </div>
     </div>
   )

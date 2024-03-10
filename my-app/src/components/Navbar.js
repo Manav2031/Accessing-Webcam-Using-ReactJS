@@ -8,12 +8,12 @@ const Navbar = () => {
                 <Link to="/">
                     <h1>Optical Character Recognition</h1>
                 </Link>
-                <nav>
+                {/* <nav>
                     <div>
                         <Link to="/ocr">Asset Tracking</Link>
                         <Link to="/invoice">Invoice Extraction</Link>
                     </div>
-                </nav>
+                </nav> */}
             </div>
         </header>
     )
