@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import '../styles/styles.css';
 
-const FileUpload = () => {
+const FileUpload = ({ url }) => {
   const [file, setFile] = useState(null);
   const [output, setOutput] = useState(null);
   const [formData, setFormData] = useState(new FormData());

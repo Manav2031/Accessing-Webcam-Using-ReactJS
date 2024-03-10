@@ -1,33 +1,20 @@
-import React from 'react';
-import '../styles/success.css';
-import Camera from './Camera';
-import FileUpload from './FileUpload';
-import { useAuth0 } from '@auth0/auth0-react';
+import React from "react";
+import "../styles/success.css"
 
-const Success = () => {
-  const {logout} = useAuth0();
-
-  return (
-    <div className="success">
-      <div className="containers">
-      <div className="leftcontainer">
-        <h1 className="lch1"> Asset Tracking </h1>
-        <Camera />
-        <br /> <br />
-      </div>
-      <div className="rightcontainer">
-        <h1 className="rch1"> Invoice Extraction </h1>
-        <br /> <br />
-        <FileUpload />
-        <br /> <br />
-      </div>
-      </div>
-    <button onClick={() => logout()}> Logout </button>
-    <br /> <br />
-    <br /> <br />
-  </div>
-  )
+export default function Success() {
+    
+    
+    return (
+        <div className="success">
+            <div className="container">
+                <a href="/ocr">
+                    <button>Asset Tracking</button>
+                </a>
+                <br/><br/>
+                <a href="/invoice">
+                    <button>Invoice Extraction</button>
+                </a>
+            </div>
+        </div>
+    )
 }
-
-
-export default Success
