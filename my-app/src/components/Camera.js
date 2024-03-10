@@ -8,7 +8,7 @@ const videoConstraints = {
     facingMode: 'environment'
 }
 
-const Camera = () => {
+const Camera = ({ Requrl }) => {
 
     const webcamRef = useRef(null)
     const [url, setUrl] = useState(null)
@@ -42,13 +42,13 @@ const Camera = () => {
   return (
     <div className="webcam-container">
         <Webcam
-        className="webcam-preview"
-        ref = {webcamRef}
-        screenshotFormat = "image/jpeg"
-        screenshotQuality = {1}
-        videoConstraints = {videoConstraints}
-        onUserMedia = {onUserMedia}
-        mirrored = {false} 
+            className="webcam-preview"
+            ref = {webcamRef}
+            screenshotFormat = "image/jpeg"
+            screenshotQuality = {1}
+            videoConstraints = {videoConstraints}
+            onUserMedia = {onUserMedia}
+            mirrored = {false} 
         />
         <br /> <br />
         <button onClick={capturePhoto} className="capture-button"> Capture </button>
@@ -57,7 +57,7 @@ const Camera = () => {
         <br /> <br />
         <br /> <br />
         {url && (
-            <div>
+            <div className='screenshot-container'>
                 <img className="screenshot-img" src={url} alt="Screenshot" />
             </div>
         )}
