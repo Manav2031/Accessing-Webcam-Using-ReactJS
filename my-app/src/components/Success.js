@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import "../styles/success.css"
 
 export default function Success() {
@@ -7,13 +8,13 @@ export default function Success() {
     return (
         <div className="success">
             <div className="container">
-                <a href="/ocr">
+                <Link to="/ocr">
                     <button>Asset Tracking</button>
-                </a>
+                </Link>
                 <br/><br/>
-                <a href="/invoice">
+                <Link to="/invoice">
                     <button>Invoice Extraction</button>
-                </a>
+                </Link>
             </div>
         </div>
     )
