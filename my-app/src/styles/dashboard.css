@@ -1,0 +1,48 @@
+/* .dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+
+
+.user-container {
+    background-color: #52A5B3;
+    height: 50vh;
+    width: 100vw;
+    position: relative;
+    z-index: -1;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.user-container h1 {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.user-container img {
+    padding: 125px;
+    margin-bottom: 150px;
+    border-radius: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container button {
+    margin-top: 2rem;
+}
