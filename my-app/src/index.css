@@ -3,18 +3,20 @@
 body {
   margin: 0;
   background: #d3d3d3;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 button {
   background-color: #3C9EAE;
   color: #fff;
-  padding: 15px 20px;
+  padding: 20px 20px;
   font-size: 16px;
   cursor: pointer;
   border: none;
   transition: background-color 0.3s;
-  width: 300px;
+  width: 325px;
+  text-decoration: solid;
+  font-weight: bold;
 } 
 
 footer {

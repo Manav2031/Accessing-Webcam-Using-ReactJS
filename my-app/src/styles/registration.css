@@ -1,0 +1,36 @@
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px #ccc;
+}
+
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.register-container input {
+    margin: 10px;
+    padding: 12px;
+    width: 300px;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.register-container a {
+    color: #52A5B3;
+    margin-top: 10px;
+    font-weight: bold;
+}

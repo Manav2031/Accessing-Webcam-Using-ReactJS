@@ -9,7 +9,7 @@
   height:18em;
   margin-top: -9em; /*set to a negative number 1/2 of your height*/
   margin-left: -15em; /*set to a negative number 1/2 of your width*/
-  border: 1px solid #ccc;
+  border: 1px #ccc;
 }
 
 .login-container {
@@ -21,15 +21,21 @@
 
 .login-container input {
   margin-top: 10px;
-  padding: 10px;
+  padding: 12px;
   width: 300px;
   border: none;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-   border-radius: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .login-container a {
   color: #52A5B3;
   margin-top: 10px;
+}
+
+.login-container p a {
+  color: #52A5B3;
+  margin-top: 10px;
+  font-weight: bold;
 }

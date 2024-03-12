@@ -11,7 +11,7 @@ export default function Login() {
         <h1>Welcome back!</h1>
         <LoginScreen />
         <input type="email" name="email" id="email" placeholder="Enter email" />
-        <input type="passwors" name="password" id="password" placeholder="Enter password" />
+        <input type="password" name="password" id="password" placeholder="Enter password" />
         <a href="/">Forgot Password?</a>
         <Link to="/dashboard">
                 <button>LOGIN</button>

@@ -8,7 +8,7 @@ export default function GetStarted() {
 
     return (
         <div className="component9">
-            <WelcomeScreen />
+                <WelcomeScreen />
             <h1>ManuScan</h1>
             <p>Convert images to text within seconds.</p>
             <Link to="/login">
