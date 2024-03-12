@@ -2,34 +2,34 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  width:30em;
+  height:18em;
+  margin-top: -9em; /*set to a negative number 1/2 of your height*/
+  margin-left: -15em; /*set to a negative number 1/2 of your width*/
+  border: 1px solid #ccc;
 }
 
 .login-container {
-  text-align: center;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.login-container input {
+  margin-top: 10px;
+  padding: 10px;
   width: 300px;
-  background-color: whitesmoke;
-}
-
-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #007bff;
-  color: #fff;
   border: none;
-  border-radius: 4px;
-  transition: background-color 0.3s;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+   border-radius: 20px;
 }
 
-button:hover {
-  background-color: #0056b3;
-}
-
-a {
-  text-decoration: none;
+.login-container a {
+  color: #52A5B3;
+  margin-top: 10px;
 }
