@@ -13,10 +13,10 @@ export default function Registration() {
                 <input type="password" name="password" id="password" placeholder="Enter password" />
                 <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm password" />
                 
-                <Link to="/dashboard">
+                <Link to="/login">
                         <button>REGISTER</button>
                 </Link>
-                <p>Have an account? <a href="/register">Sign in</a></p>
+                <p>Have an account? <Link to="/login">Sign in</Link></p>
             </div>
         </div>
     )

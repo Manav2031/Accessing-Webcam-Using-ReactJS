@@ -12,11 +12,11 @@ export default function Login() {
         <LoginScreen />
         <input type="email" name="email" id="email" placeholder="Enter email" />
         <input type="password" name="password" id="password" placeholder="Enter password" />
-        <a href="/">Forgot Password?</a>
+        <Link to="/">Forgot Password?</Link>
         <Link to="/dashboard">
                 <button>LOGIN</button>
         </Link>
-        <p>Don't have an account? <a href="/register">Sign up</a></p>
+        <p>Don't have an account? <Link to="/register">Sign up</Link></p>
       </div>
     </div>
   )
