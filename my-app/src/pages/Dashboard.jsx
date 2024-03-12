@@ -10,7 +10,7 @@ export default function Dashboard() {
             <Circle style={{ position: 'absolute' }}/>
             <div className="user-container">
                 <img src={userImg} alt="User Image"/>
-                <h1>Swaraj Gosavi</h1>
+                <h1>User</h1>
             </div>
 
             <div className="container">

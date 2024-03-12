@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
     <Circle style={{ position: 'absolute'}} />
     <Routes>
-        <Route path='/getstarted' element={<GetStarted />} />
+        <Route path='/' element={<GetStarted />} />
         <Route path='/login' element={<Login />} />
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/register' element={<Registration />} />
