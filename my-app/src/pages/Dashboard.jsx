@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/dashboard.css"
 import { Link } from "react-router-dom";
 import {ReactComponent as Circle} from "../static/Component 1.svg"
+import {ReactComponent as PoweredBy} from "../static/Component 11.svg"
 import userImg from "../static/Ellipse 3.png"
 
 export default function Dashboard() {
@@ -21,6 +22,7 @@ export default function Dashboard() {
                     <button>INVOICE TO EXCEL CONVERTER</button>
             </Link>
             </div>
+            <PoweredBy className="poweredby"/>
         </>
     )
 }

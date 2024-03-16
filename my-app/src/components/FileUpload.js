@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import {ReactComponent as Circle} from "../static/Component 1.svg"
+import {ReactComponent as Footer} from "../static/Component 12.svg"
 import axios from "axios";
 import '../styles/styles.css';
 
@@ -47,13 +49,20 @@ const FileUpload = ({ url }) => {
   };
 
   return (
+    <div className="file-upload">
+      <Circle style={{ position: 'absolute' }}/>
     <div className="file-upload-container">
+    <h1> INVOICE TO EXCEL </h1>
       <input className="file-input" type="file" accept="image/*" onChange={(e) => setFile(e.target.files[0])} />
       <button className="upload-button" onClick={handleUpload}>Upload Image</button>
       <br /> <br />
       <button className="download-button" onClick={handleDownload}>Download Excel File</button>
       <br /> <br />
       <p>{output}</p>
+    </div>
+    <div className="filefooter">
+    <Footer className="camera-footer" style={{ position: 'relative' }}/>
+    </div>
     </div>
   );
 };

@@ -12,6 +12,13 @@
     border: 1px #ccc;
 }
 
+.poweredby {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
 .register-container {
     display: flex;
     align-items: center;

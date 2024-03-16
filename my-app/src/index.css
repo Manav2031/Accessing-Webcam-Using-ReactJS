@@ -18,10 +18,3 @@ button {
   text-decoration: solid;
   font-weight: bold;
 } 
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}

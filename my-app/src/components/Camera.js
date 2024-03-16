@@ -1,5 +1,7 @@
 import React, {useCallback, useRef, useState} from 'react'
 import Webcam from 'react-webcam'
+import {ReactComponent as Circle} from "../static/Component 1.svg"
+import {ReactComponent as Footer} from "../static/Component 12.svg"
 import axios from 'axios'
 import '../styles/styles.css'
 
@@ -40,7 +42,10 @@ const Camera = ({ Requrl }) => {
     }
 
   return (
+    <div className="camera">
+        <Circle style={{ position: 'absolute' }}/>
     <div className="webcam-container">
+        <h1> OCR ASSET <br /> RECOGNITION </h1>
         <Webcam
             className="webcam-preview"
             ref = {webcamRef}
@@ -67,6 +72,8 @@ const Camera = ({ Requrl }) => {
             </div>
         )}
              <br /> <br />
+    </div>
+    <Footer className="camera-footer" style={{ position: 'relative' }}/>
     </div>
   )
 }

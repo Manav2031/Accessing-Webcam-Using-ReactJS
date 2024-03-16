@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {ReactComponent as PoweredBy} from "../static/Component 11.svg"
 import "../styles/registration.css"
 
 export default function Registration() {
     return (
+        <>
         <div className="register">
             <div className="register-container">
                 <h1>Welcome onboard!</h1>
@@ -19,5 +21,7 @@ export default function Registration() {
                 <p>Have an account? <Link to="/login">Sign in</Link></p>
             </div>
         </div>
+        <PoweredBy className="poweredby"/>
+        </>
     )
 }

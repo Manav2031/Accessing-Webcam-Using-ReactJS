@@ -25,3 +25,10 @@
 .component9 button {
     width: 300px;
 }
+
+.poweredby {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
